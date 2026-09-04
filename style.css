@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    border-color: #3498db;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+#addBtn {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+#addBtn:hover {
+    background-color: #2980b9;
+}
+
+.counter-section {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+li {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+li.important {
+    background: #fff9e6;
+    border-color: #f1c40f;
+}
+
+.note-text {
+    flex-grow: 1;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.note-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.note-actions button {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+}
+
+.important-btn {
+    background-color: #f39c12;
+    color: white;
+}
+.important-btn:hover {
+    background-color: #d68910;
+}
+
+.edit-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+.edit-btn:hover {
+    background-color: #27ae60;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+.delete-btn:hover {
+    background-color: #c0392b;
+}

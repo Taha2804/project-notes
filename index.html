@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-based Notes Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Notes Manager</h1>
+        
+        <div class="input-section">
+            <textarea id="noteInput" placeholder="Type your note here..."></textarea>
+            <button id="addBtn">Add Note</button>
+        </div>
+
+        <div class="counter-section">
+            <p>Total Notes: <span id="noteCount">0</span></p>
+        </div>
+
+        <ul id="notesList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
